@@ -1,0 +1,158 @@
+header {
+    color: #eee;
+    padding: 25px;
+}
+
+.car {
+width: 300px;
+height: 135px;
+border-radius: 20px;
+}
+body {
+    background-image: url(https://i.postimg.cc/fWxmCvTT/fon.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    color: white;
+    margin: 0px;
+
+    }
+.skin {
+        color: white;
+        width: 300px;
+        box-shadow: 3px 5px 4px  rgb(0, 0, 0) ;
+        padding: 75px;
+        border-radius: 50px;
+        vertical-align: top;
+        display: inline-block;
+        margin: 20px;
+        background-color: DimGray;
+        transition: 0.8s;
+
+
+        
+}
+.text {
+    margin: 10px 0px 10px 0px;
+    font-family: Comic 'Gill Sans';
+
+}
+.save {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+h1 {
+    text-align: center;
+    padding: 10px 10px 50px 50px;
+    font-size: 65px;
+    font-family: Arial;
+
+}
+h2 {
+    text-align: center;
+
+
+}
+footer {
+    padding: 40px;   
+    text-align: center;
+    margin-top: auto;
+
+        
+}
+main {
+    background: rgba(0, 0, 0, 0);
+margin-right: 10%;
+margin-left: 10%;
+}
+.reklama {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.ckbl {
+    margin: 10px 0px 10px 0px;
+    font-family: Arial;
+  font-size: 40px ;
+}
+.rek {
+    font-size: 40px 
+
+}
+.per {
+cursor: pointer;
+outline: none;
+border: none;
+border-radius: 25px;
+background-color: orange;
+color: black;
+padding: 10px 30px;
+
+}
+.ckblin {
+float: left;
+}
+.pota {
+float: right;
+font-size: 40px;
+}
+nav {
+    text-align: center;
+    padding: 10px 10px 50px 50px;
+    font-size: 25px;
+    font-family: Arial;
+
+}
+.save:hover,.per:hover {
+transform: scale(1.2);
+
+}
+.skin:hover {
+    transform: scale(1.1);
+
+}
+.save:focus-visible,.per:focus-visible {
+    transform: scale(1.2);
+
+
+}
+.save:active {
+    background-color: rgb(245, 173, 173);
+   
+}
+.per:active {
+    background-color: rgb(33, 255, 4);
+
+}
+
+@media (min-width:0px)and (max-width:375px) {
+    .car{
+width: 280px ;
+    }
+.skin {
+width: 280px ;
+}
+}
+@media (min-width:376px)and (max-width:960px) {
+    .car{
+width: 380px ;
+    }
+.skin {
+width: 380px ;
+}
+}    
+@media (min-width:961px)and (max-width:1600px) {
+    .car{
+width: 480px ;
+    }
+.skin {
+width: 480px ;
+}
+}
